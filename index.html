@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Boiled Drawing Color Test</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="index.js?1463177117509"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	
+	canvas = document.getElementById("canvas");
+	exportRoot = new lib.boileddrawingcolortest1();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+
+
+	main = exportRoot.main
+
+	_.each(main.children, function(anim){
+		anim.gotoAndPlay(_.random(anim.totalFrames))
+		anim.addEventListener("tick",  function() {
+			if (anim.currentFrame === anim.totalFrames - 1) {
+				range = 30
+				anim.x = _.random(-range, range)
+				anim.y = _.random(-range, range)
+			}
+		})
+	})
+
+}
+
+</script>
+
+<!-- write your code here -->
+
+</head>
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="500" height="500" style="background-color:#999999"></canvas>
+</body>
+</html>

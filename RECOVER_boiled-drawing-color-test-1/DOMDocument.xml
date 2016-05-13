@@ -19,11 +19,11 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+                    <DOMLayer name="Layer 4" color="#FF4FFF">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="nucleus-1" selected="true">
+                                        <DOMSymbolInstance libraryItemName="nucleus-1">
                                              <matrix>
                                                   <Matrix tx="258" ty="308.75"/>
                                              </matrix>
@@ -51,7 +51,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="guide">
+                    <DOMLayer name="Layer 2" color="#9933CC" locked="true" current="true" isSelected="true" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
