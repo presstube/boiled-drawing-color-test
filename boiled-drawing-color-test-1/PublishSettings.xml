@@ -42,13 +42,13 @@
     <Property name="bitDepth">8</Property>
     <Property name="compactPaths">true</Property>
     <Property name="createjsNS">createjs</Property>
-    <Property name="default">true</Property>
+    <Property name="default">false</Property>
     <Property name="exportAsSpritesheet">true</Property>
     <Property name="exportHTML">false</Property>
     <Property name="exportImages">true</Property>
     <Property name="exportLibs">true</Property>
     <Property name="exportSounds">true</Property>
-    <Property name="filename">boiled-drawing-color-test-1.js</Property>
+    <Property name="filename">index.js</Property>
     <Property name="frameBounds">false</Property>
     <Property name="hostedLibs">true</Property>
     <Property name="imageFormat">0</Property>
