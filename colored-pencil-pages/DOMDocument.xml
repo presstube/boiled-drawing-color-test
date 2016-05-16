@@ -1,0 +1,34 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="500" height="500" frameRate="30" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="50.6510299754819" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C">
+     <media>
+          <DOMBitmapItem name="IMG_1709.JPG" itemID="573a357e-00000026" sourceExternalFilepath="./LIBRARY/IMG_1709.JPG" sourceLastImported="1463362399" sourcePlatform="macintosh" externalFileSize="811737" allowSmoothing="true" quality="50" href="IMG_1709.JPG" bitmapDataHRef="M 1 1463432574.dat" frameRight="48960" frameBottom="48960" isJPEG="true"/>
+          <DOMBitmapItem name="IMG_1712.JPG" itemID="573a357e-0000002a" sourceExternalFilepath="./LIBRARY/IMG_1712.JPG" sourceLastImported="1463362382" sourcePlatform="macintosh" externalFileSize="1044324" allowSmoothing="true" quality="50" href="IMG_1712.JPG" bitmapDataHRef="M 2 1463432574.dat" frameRight="48960" frameBottom="48960" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="c-pencil-1.xml" loadImmediate="false" itemID="573a365a-0000002c" lastModified="1463432929"/>
+          <Include href="c-pencil-2.xml" loadImmediate="false" itemID="573a3661-00000032" lastModified="1463432811"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="c-pencil-2" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="250" ty="250"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>
